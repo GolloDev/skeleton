@@ -8,8 +8,10 @@ require_once '../vendor/autoload.php';
 /**
  * Load .env file
  */
-Dotenv::load(__DIR__.'/../');
-
+if (file_exists(__DIR__.'/../.env'))
+{
+  Dotenv::load(__DIR__.'/../');
+}
 
 //New instance of Slim
 $app = new \Slim\Slim();
