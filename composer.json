@@ -1,0 +1,16 @@
+{
+    "name": "lagseeing/skeleton",
+    "description": "Slim Skeleton with attitude.",
+    "require": {
+        "vlucas/phpdotenv": "~1.1",
+        "slim/slim": "2.5.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antonio Requena",
+            "email": "razondota@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
