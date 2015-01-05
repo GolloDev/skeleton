@@ -3,7 +3,8 @@
     "description": "Slim Skeleton with attitude.",
     "require": {
         "vlucas/phpdotenv": "~1.1",
-        "slim/slim": "2.5.*"
+        "slim/slim": "2.5.*",
+        "flynsarmy/slim-monolog": "~1.0.0"
     },
     "license": "MIT",
     "authors": [
