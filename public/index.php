@@ -13,16 +13,17 @@ if (file_exists(__DIR__.'/../.env'))
   Dotenv::load(__DIR__.'/../');
 }
 
-$logger = new \Flynsarmy\SlimMonolog\Log\MonologWriter(array(
-  'handlers' => array(
-    new \Monolog\Handler\StreamHandler('../storage/logs/'.date('Y-m-d').'.log'),
-  ),
+//New Instance of Slim
+$app = new \Slim\Slim(array(
+  'templates.path' => '../resources/templates',
 ));
 
-//New instance of Slim
-$app = new \Slim\Slim(array(
-  'log.writer' => $logger
-));
+// Create monolog logger and store logger in container as singleton 
+$app->container->singleton('log', function () {
+  $log = new \Monolog\Logger('slim-skeleton');
+  $log->pushHandler(new \Monolog\Handler\StreamHandler('../storage/logs/app.log', \Monolog\Logger::DEBUG));
+  return $log;
+});
 
 //Routes file
 include '../src/routes.php';
