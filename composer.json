@@ -4,7 +4,14 @@
     "require": {
         "vlucas/phpdotenv": "~1.1",
         "slim/slim": "2.5.*",
+        "slim/views": "~0.1",
+        "philo/laravel-blade":"~2.0",
         "monolog/monolog": "1.*"
+    },
+    "autoload": {
+      "psr-4": {
+        "Slim\\Views\\": "storage"
+      }
     },
     "license": "MIT",
     "authors": [
