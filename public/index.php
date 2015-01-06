@@ -18,9 +18,9 @@ $app = new \Slim\Slim(array(
   'templates.path' => '../resources/templates',
 ));
 
-// Create monolog logger and store logger in container as singleton 
+// Create monolog logger and store logger in container as singleton
 $app->container->singleton('log', function () {
-  $log = new \Monolog\Logger('slim-skeleton');
+  $log = new \Monolog\Logger('lagseeing-skeleton');
   $log->pushHandler(new \Monolog\Handler\StreamHandler('../storage/logs/app.log', \Monolog\Logger::DEBUG));
   return $log;
 });
