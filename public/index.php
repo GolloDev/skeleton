@@ -3,7 +3,7 @@
 /**
  * Composer autoloader
  */
-require_once '../vendor/autoload.php';
+require_once __DIR__.'/../vendor/autoload.php';
 
 /**
  * Load .env file
@@ -16,13 +16,13 @@ if (file_exists(__DIR__.'/../.env'))
 //New Instance of Slim
 $app = new \Slim\Slim(array(
   'view' => new \Slim\Views\Blade(),
-  'templates.path' => '../resources/templates',
+  'templates.path' => __DIR__.'/../resources/templates',
 ));
 
 // Create monolog logger and store logger in container as singleton
 $app->container->singleton('log', function () {
   $log = new \Monolog\Logger('lagseeing-skeleton');
-  $log->pushHandler(new \Monolog\Handler\StreamHandler('../storage/logs/app.log', \Monolog\Logger::DEBUG));
+  $log->pushHandler(new \Monolog\Handler\StreamHandler(__DIR__.'/../storage/logs/app.log', \Monolog\Logger::DEBUG));
   return $log;
 });
 
@@ -30,11 +30,11 @@ $app->container->singleton('log', function () {
 $view = $app->view();
 $view->parserOptions = array(
   'debug' => true,
-  'cache' => '../storage/cache'
+  'cache' => __DIR__.'/../storage/cache'
 );
 
 //Routes file
-include '../src/routes.php';
+include __DIR__.'/../src/routes.php';
 
 //Bootstrap Slim
 $app->run();
