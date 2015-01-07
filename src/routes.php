@@ -1,6 +1,6 @@
 <?php
 
 $app->get('/', function () use ($app) {
-  echo 'You have arrived';
+  $app->render('home');
   //$app->log->info("Skeleton '/' route");
 });
