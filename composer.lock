@@ -1,0 +1,585 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "984357c35655da2f0ffd38d272c38e9d",
+    "packages": [
+        {
+            "name": "illuminate/container",
+            "version": "v4.2.16",
+            "target-dir": "Illuminate/Container",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/container.git",
+                "reference": "8db091c1b4e503ef8dcd4586d5c63e3997bc4e89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/8db091c1b4e503ef8dcd4586d5c63e3997bc4e89",
+                "reference": "8db091c1b4e503ef8dcd4586d5c63e3997bc4e89",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Illuminate\\Container": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "time": "2014-12-17 20:39:51"
+        },
+        {
+            "name": "illuminate/events",
+            "version": "v4.2.16",
+            "target-dir": "Illuminate/Events",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/events.git",
+                "reference": "a8471d3f6c3e87c50e25e18f13908fffaef159df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/events/zipball/a8471d3f6c3e87c50e25e18f13908fffaef159df",
+                "reference": "a8471d3f6c3e87c50e25e18f13908fffaef159df",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/container": "4.2.*",
+                "illuminate/support": "4.2.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Illuminate\\Events": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "time": "2014-10-02 19:49:50"
+        },
+        {
+            "name": "illuminate/filesystem",
+            "version": "v4.2.16",
+            "target-dir": "Illuminate/Filesystem",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/filesystem.git",
+                "reference": "bf8e1443b956e2b87dc71f40035380fbc790f612"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/bf8e1443b956e2b87dc71f40035380fbc790f612",
+                "reference": "bf8e1443b956e2b87dc71f40035380fbc790f612",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "4.2.*",
+                "php": ">=5.4.0",
+                "symfony/finder": "2.5.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Illuminate\\Filesystem": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "time": "2014-10-10 14:30:55"
+        },
+        {
+            "name": "illuminate/support",
+            "version": "v4.2.16",
+            "target-dir": "Illuminate/Support",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/support.git",
+                "reference": "015f51f4d8cb3d9a29e7fe7932843acf15232941"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/015f51f4d8cb3d9a29e7fe7932843acf15232941",
+                "reference": "015f51f4d8cb3d9a29e7fe7932843acf15232941",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "jeremeamia/superclosure": "~1.0.1",
+                "patchwork/utf8": "1.1.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Illuminate\\Support": ""
+                },
+                "files": [
+                    "Illuminate/Support/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "time": "2014-12-19 18:02:33"
+        },
+        {
+            "name": "illuminate/view",
+            "version": "v4.2.16",
+            "target-dir": "Illuminate/View",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/view.git",
+                "reference": "f3c9da29ff8e554a9bd74895b13a5ed4bed0d93a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/view/zipball/f3c9da29ff8e554a9bd74895b13a5ed4bed0d93a",
+                "reference": "f3c9da29ff8e554a9bd74895b13a5ed4bed0d93a",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/container": "4.2.*",
+                "illuminate/events": "4.2.*",
+                "illuminate/filesystem": "4.2.*",
+                "illuminate/support": "4.2.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Illuminate\\View": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "time": "2014-12-19 14:34:11"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "1fbe8c2641f2b163addf49cc5e18f144bec6b19f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/1fbe8c2641f2b163addf49cc5e18f144bec6b19f",
+                "reference": "1fbe8c2641f2b163addf49cc5e18f144bec6b19f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "~2.4, >2.4.8",
+                "doctrine/couchdb": "~1.0@dev",
+                "graylog2/gelf-php": "~1.0",
+                "phpunit/phpunit": "~4.0",
+                "raven/raven": "~0.5",
+                "ruflin/elastica": "0.90.*",
+                "videlalvaro/php-amqplib": "~2.4"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "raven/raven": "Allow sending log messages to a Sentry server",
+                "rollbar/rollbar": "Allow sending log messages to Rollbar",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+                "videlalvaro/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.12.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/Monolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "time": "2014-12-29 21:29:35"
+        },
+        {
+            "name": "philo/laravel-blade",
+            "version": "v2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhiloNL/Laravel-Blade.git",
+                "reference": "f3afc95c1b8a342cd973dab435f9f56ec4f1e0c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhiloNL/Laravel-Blade/zipball/f3afc95c1b8a342cd973dab435f9f56ec4f1e0c6",
+                "reference": "f3afc95c1b8a342cd973dab435f9f56ec4f1e0c6",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/view": "4.2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Philo\\Blade\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Philo Hermans",
+                    "email": "me@philohermans.com"
+                }
+            ],
+            "description": "Use the simple and yet powerful Laravel Blade templating engine as a standalone component.",
+            "keywords": [
+                "blade",
+                "laravel"
+            ],
+            "time": "2014-12-02 20:44:48"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "slim/slim",
+            "version": "2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeguy/Slim.git",
+                "reference": "04958a10ed95bc7bc97568e573877d4f9b62db48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeguy/Slim/zipball/04958a10ed95bc7bc97568e573877d4f9b62db48",
+                "reference": "04958a10ed95bc7bc97568e573877d4f9b62db48",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "ext-mcrypt": "Required for HTTP cookie encryption"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Slim": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "info@joshlockhart.com",
+                    "homepage": "http://www.joshlockhart.com/"
+                }
+            ],
+            "description": "Slim Framework, a PHP micro framework",
+            "homepage": "http://github.com/codeguy/Slim",
+            "keywords": [
+                "microframework",
+                "rest",
+                "router"
+            ],
+            "time": "2014-12-09 19:59:29"
+        },
+        {
+            "name": "slim/views",
+            "version": "0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeguy/Slim-Views.git",
+                "reference": "8561c785e55a39df6cb6f95c3aba3281a60ed5b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeguy/Slim-Views/zipball/8561c785e55a39df6cb6f95c3aba3281a60ed5b0",
+                "reference": "8561c785e55a39df6cb6f95c3aba3281a60ed5b0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "slim/slim": ">=2.4.0"
+            },
+            "suggest": {
+                "smarty/smarty": "Smarty templating system",
+                "twig/twig": "Twig templating system"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Slim\\Views\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "info@joshlockhart.com",
+                    "homepage": "http://www.joshlockhart.com/"
+                },
+                {
+                    "name": "Andrew Smith",
+                    "email": "a.smith@silentworks.co.uk",
+                    "homepage": "http://thoughts.silentworks.co.uk/"
+                }
+            ],
+            "description": "Smarty and Twig View Parser package for the Slim Framework",
+            "homepage": "http://github.com/codeguy/Slim-Views",
+            "keywords": [
+                "extensions",
+                "slimphp",
+                "templating"
+            ],
+            "time": "2014-12-09 23:48:51"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "v2.5.9",
+            "target-dir": "Symfony/Component/Finder",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Finder.git",
+                "reference": "e527ebf47ff912a45e148b7d0b107b80ec0b3cc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/e527ebf47ff912a45e148b7d0b107b80ec0b3cc2",
+                "reference": "e527ebf47ff912a45e148b7d0b107b80ec0b3cc2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Finder\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Finder Component",
+            "homepage": "http://symfony.com",
+            "time": "2015-01-03 08:01:13"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "732d2adb7d916c9593b9d58c3b0d9ebefead07aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/732d2adb7d916c9593b9d58c3b0d9ebefead07aa",
+                "reference": "732d2adb7d916c9593b9d58c3b0d9ebefead07aa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Dotenv": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "http://www.vancelucas.com"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "homepage": "http://github.com/vlucas/phpdotenv",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2014-12-05 15:19:21"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
