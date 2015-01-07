@@ -1,8 +1,6 @@
-## Slim skeleton
+## Slim skeleton  [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/lagseeing/skeleton)
 
-Small slim skeleton with attitude and cool stuff. 
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/lagseeing/skeleton)
+Small slim skeleton with attitude and cool stuff.
 
 ### Installation
 

@@ -1,0 +1,7 @@
+{
+  "name": "Slim Skeleton",
+  "description": "Small slim skeleton with attitude and cool stuff.",
+  "repository": "https://github.com/lagseeing/skeleton",
+  "logo": "http://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
+  "keywords": ["php", "slimphp", "restful"]
+}
