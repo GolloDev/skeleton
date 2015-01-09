@@ -20,7 +20,7 @@ php -S localhost:8000 -t public
 
 ### Heroku
 
-The [Procfile](https://github.com/lagseeing/skeleton/Procfile) and [nginx](https://github.com/lagseeing/skeleton/nginx_app.conf) included
+The [Procfile](https://github.com/lagseeing/skeleton/blob/master/Procfile) and [nginx](https://github.com/lagseeing/skeleton/blob/master/nginx_app.conf) included
 files provide a great Heroku Integration with the default Php Buildpack.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/lagseeing/skeleton)
