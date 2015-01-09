@@ -23,6 +23,8 @@ php -S localhost:8000 -t public
 The [Procfile](https://github.com/lagseeing/skeleton/Procfile) and [nginx](https://github.com/lagseeing/skeleton/nginx_app.conf) included
 files provide a great Heroku Integration with the default Php Buildpack.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/lagseeing/skeleton)
+
 ### Official Documentation
 
 Documentation for the entire framework can be found on the [Slim Website](http://docs.slimframework.com/).
