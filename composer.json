@@ -10,7 +10,7 @@
     },
     "autoload": {
       "psr-4": {
-        "Slim\\Views\\": "storage"
+        "Slim\\Views\\": "src"
       }
     },
     "license": "MIT",

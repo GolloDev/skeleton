@@ -22,7 +22,7 @@ $app = new \Slim\Slim(array(
 // Create monolog logger and store logger in container as singleton
 $app->container->singleton('log', function () {
   $log = new \Monolog\Logger('lagseeing-skeleton');
-  $log->pushHandler(new \Monolog\Handler\StreamHandler(__DIR__.'/../storage/logs/app.log', \Monolog\Logger::DEBUG));
+  $log->pushHandler(new \Monolog\Handler\StreamHandler(__DIR__.'/../src/logs/app.log', \Monolog\Logger::DEBUG));
   return $log;
 });
 
@@ -30,11 +30,11 @@ $app->container->singleton('log', function () {
 $view = $app->view();
 $view->parserOptions = array(
   'debug' => true,
-  'cache' => __DIR__.'/../storage/cache'
+  'cache' => __DIR__.'/../src/cache'
 );
 
 //Routes file
-include __DIR__.'/../src/routes.php';
+include __DIR__.'/../app/routes.php';
 
 //Bootstrap Slim
 $app->run();

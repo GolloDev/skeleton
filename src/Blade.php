@@ -14,7 +14,7 @@ class Blade extends \Slim\View
   * @var BladeEnvironment The Blade environment for rendering templates.
   */
   private $parserInstance = null;
-  
+
   /**
   * Render Blade Template
   *
