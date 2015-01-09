@@ -6,7 +6,8 @@
         "slim/slim": "2.5.*",
         "slim/views": "~0.1",
         "philo/laravel-blade":"~2.0",
-        "monolog/monolog": "1.*"
+        "monolog/monolog": "1.*",
+        "symfony/var-dumper": "2.6.*"
     },
     "autoload": {
       "psr-4": {
